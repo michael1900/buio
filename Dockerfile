@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y git
 
 # Clone the repository
-RUN git clone https://github.com/michael1900/UnHided .
+RUN git clone https://github.com/michael1900/buio .
 
 # Copy the local config.json file to the container
 
